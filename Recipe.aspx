@@ -20,7 +20,7 @@
             <asp:Parameter Name="Preperation" Type="String" />
         </InsertParameters>
         <SelectParameters>
-            <asp:QueryStringParameter DefaultValue="1" Name="Id" QueryStringField="field" Type="Int32" />
+            <asp:QueryStringParameter DefaultValue="1" Name="Id" QueryStringField="Id" Type="Int32" />
         </SelectParameters>
         <UpdateParameters>
             <asp:Parameter Name="SubmittedBy" Type="String" />
