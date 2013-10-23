@@ -3,17 +3,17 @@
 #container{width:1024px; margin:20px auto; overflow: hidden;background-color:#FFFF99;border: solid 10px; border-color:#FFFFFF}
 #header { padding: 10px;}
 
-#menu{padding:5px 10px; text-align:center;border-bottom: solid 2px #696969;}
+#menu{text-align:center;border-bottom: solid 2px #696969;}
 
 #content{ float:left; width: 1024px; padding:10px; height: 800px;border-right: solid 2px black;}
 
 #footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px #696969;}
 
-#menu li  { display: inline; list-style-type: none; padding-right: 45px;font-size: 20px ;}
+#menu li  { display: inline; list-style-type: none; font-size: 20px ;}
 
 h1.banner {text-align:center;font-weight:900; color: #F08080;}
 h2.description {text-align:center; font-weight:600;color: #F08080;}
 h4.foot {text-align:center; font-weight:600;}
-.menu1 { margin-left:auto;margin-right:auto;
+.menu1 { margin:0px auto;
 }
 
