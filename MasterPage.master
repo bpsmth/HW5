@@ -20,13 +20,13 @@
 	</div>
 <div id="menu">
 		<!--This div is for the nav menu for the site-->
-    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
-        <LevelMenuItemStyles>
-            <asp:MenuItemStyle CssClass="menu1" />
-
-        </LevelMenuItemStyles>
-    </asp:Menu>
-        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+    <ul>
+		<li> <a class="links" href="./default.aspx">Home</a> |  </li>
+		<li> <a class="links" href="./NewRecipe.aspx">New Recipe</a> | </li>
+		<li> <a class="links" href="./AboutUs.aspx">About Us</a> | </li>
+        <li> <a class="links" href="./ContactUs.aspx">Contact</a></li>
+		</ul>
+        
 </div>
 <div id="content">
     <div>

@@ -5,15 +5,39 @@
 
 #menu{text-align:center;border-bottom: solid 2px #696969;}
 
-#content{ float:left; width: 1024px; padding:10px; height: 800px;border-right: solid 2px black;}
+#content{ float:left; width: 1024px; padding:20px; height: 800px;border-right: solid 2px black;}
 
 #footer{float: left; width:1024px; padding:10px; height: 70px; border-top: solid 2px #696969;}
 
 #menu li  { display: inline; list-style-type: none; font-size: 20px ;}
 
+
 h1.banner {text-align:center;font-weight:900; color: #F08080;}
 h2.description {text-align:center; font-weight:600;color: #F08080;}
 h4.foot {text-align:center; font-weight:600;}
-.menu1 { margin:0px auto;
+.details{margin:25px 210px; Height:500px; width:600px;}
+        .details td {padding: 15px; width: 300px; font-size:14pt;}
+
+    .details recipeitems {
+    }
+    .details .fheader { background-color:#F08080; text-align:right; color: white;
 }
 
+    .details .command {
+        text-align: center;
+        background-color: #D2B48C;
+    }
+  
+.Grids {width: 96%; border: 2px solid black; margin: 5px 0 10px 0;
+}
+    .Grids td {border: 2px solid black; padding: 10px; background-color:white; text-align:center; width: 33%; font-size:14pt;
+    }
+    .Grids th {
+        border: 2px solid black;
+        background-color: #F08080;
+        text-align: center;
+        color:white;
+        font-size:16pt;
+
+        
+    } 

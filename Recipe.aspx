@@ -39,9 +39,20 @@
 
 
 
-    <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" DataKeyNames="Id" DataSourceID="SqlDataSource1" Height="50px" Width="270px">
+    <asp:DetailsView
+        ID="DetailsView1" 
+        runat="server" 
+        AutoGenerateRows="False" 
+        DataKeyNames="Id" 
+        DataSourceID="SqlDataSource1" 
+        CssClass="details" 
+        FieldHeaderStyle-CssClass="fheader" 
+        commandrowstyle-Cssclass="command"
+        itemstyle-cssClass="recipeitems"
+        >
+
         <Fields>
-            <asp:BoundField DataField="RecipeName" HeaderText="Recipe Name" SortExpression="RecipeName" />
+            <asp:BoundField DataField="RecipeName" HeaderText="Recipe Name" SortExpression="RecipeName"  />
             <asp:BoundField DataField="SubmittedBy" HeaderText="Submitted By" SortExpression="SubmittedBy" />
             <asp:BoundField DataField="Ing1" HeaderText="Ingredient #1" SortExpression="Ing1" />
             <asp:BoundField DataField="Ing2" HeaderText="Ingredient #2" SortExpression="Ing2" />
