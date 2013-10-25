@@ -48,8 +48,12 @@
         CssClass="details" 
         FieldHeaderStyle-CssClass="fheader" 
         commandrowstyle-Cssclass="command"
-        itemstyle-cssClass="recipeitems"
+        itemstyle-cssClass="recipeitems" GridLines="None"
         >
+
+<CommandRowStyle CssClass="command"></CommandRowStyle>
+
+<FieldHeaderStyle CssClass="fheader"></FieldHeaderStyle>
 
         <Fields>
             <asp:BoundField DataField="RecipeName" HeaderText="Recipe Name" SortExpression="RecipeName"  />
@@ -61,7 +65,7 @@
             <asp:BoundField DataField="Ing5" HeaderText="Ingredient #5" SortExpression="Ing5" />
             <asp:BoundField DataField="Preperation" HeaderText="Preperation" SortExpression="Preperation" />
             <asp:BoundField DataField="Notes" HeaderText="Notes" SortExpression="Notes" />
-            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" ShowEditButton="True" />
+            <asp:CommandField ButtonType="Button" ShowDeleteButton="True" ShowEditButton="True" ShowCancelButton="False" UpdateText="Save" />
         </Fields>
     </asp:DetailsView>
     <br />
