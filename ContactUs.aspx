@@ -5,7 +5,11 @@
     
     <div id="contact">
 
-    <span class="contactinfo">Your email:</span>
+        <asp:Label ID="confirmationLbl" runat="server"></asp:Label>
+
+    <span class="contactinfo">
+        <br />
+        Your email:</span>
     <br />
     <span class="entryboxes"><asp:TextBox ID="TBEmail" runat="server" Width="212px"></asp:TextBox></span>
     <br />

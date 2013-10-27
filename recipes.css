@@ -25,11 +25,15 @@ h4.foot {text-align:center; font-weight:600;}
 
 .details{margin:25px 210px; Height:500px; width:600px; border: solid 2px #696969;}
         .details td {padding: 15px; width: 300px; font-size:14pt;border: solid 2px #696969;}
-
-    .details recipeitems {background-color: white; 
+    .details .fheader {
+        background-color: #F08080;
+        text-align: right;
+        color: white;
     }
-    .details .fheader { background-color:#F08080; text-align:right; color: white;  
-}
+    .details .recipeitems td{
+        background-color: #F08080;
+        text-align: right;
+    }
 
     .details .command {
         text-align: center;
